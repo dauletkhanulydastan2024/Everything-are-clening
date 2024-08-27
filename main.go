@@ -5,7 +5,8 @@ import "fmt"
 func main() {
 	a := 5
 	b := 7
-	result := a + b
+	c := 2
+	result := (a + b) / c
 
 	fmt.Println(result)
 }
